@@ -42,18 +42,40 @@
         color: #fff;
     }
 
-    .text_block {
-        display: flex;
-        margin-top: 10px;
+    .menu-search {
+        width: 235px;
     }
 
-    .text_block input {
+    .menu-search form {
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .menu-search .search-text {
+        width: 100%;
         font-family: "Open Sans";
         font-weight: 400;
-        font-size: 15px;
+        background: #fff;
         border-radius: 10px;
-        width: 270px;
-        height: 30px;
+        border: none;
+        font-size: 12px;
+        line-height: 12px;
+        color: #0c143b;
+        padding: 5px 30px 5px 10px;
+    }
+
+    .menu-search .search-submit {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        background: url(../img/magnifying-glass.svg);
+        width: 30px;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 40%;
+        padding: 0;
     }
 
     .text_block img {
@@ -412,6 +434,42 @@
         z-index: 99999999999;
         position: fixed;
         padding-left: 15px;
+    }
+
+    .menu-search {
+        width: 235px;
+    }
+
+    .menu-search form {
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .menu-search .search-text {
+        width: 100%;
+        font-family: "Open Sans";
+        font-weight: 400;
+        background: #fff;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+        line-height: 12px;
+        color: #0c143b;
+        padding: 5px 30px 5px 10px;
+    }
+
+    .menu-search .search-submit {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        background: url(../img/magnifying-glass.svg);
+        width: 30px;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 40%;
+        padding: 0;
     }
 
 
@@ -773,6 +831,42 @@
         overflow: hidden;
     }
 
+    .menu-search {
+        width: 235px;
+    }
+
+    .menu-search form {
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .menu-search .search-text {
+        width: 100%;
+        font-family: "Open Sans";
+        font-weight: 400;
+        background: #fff;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+        line-height: 12px;
+        color: #0c143b;
+        padding: 5px 30px 5px 10px;
+    }
+
+    .menu-search .search-submit {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        background: url(../img/magnifying-glass.svg);
+        width: 30px;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 40%;
+        padding: 0;
+    }
+
     .container {
         width: 100%;
         padding: 0 15px;
@@ -1083,26 +1177,46 @@
     .threeimg {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .background-menu {
         padding-bottom: 115px;
     }
 
+    .third {
+        margin-top: 50px;
+    }
+
+    .first-floor {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        margin-top: 31px;
+    }
+
     .expert {
-        display: block;
-        width: 50%;
+        margin-top: 31px;
+        width: 100%;
     }
 
     .information-expert {
         display: flex;
+        justify-content: center;
     }
 
     .second-floor {
         display: flex;
+        flex-flow: wrap;
     }
 
+    .table {
+        width: 60%;
+    }
+
+    .table-about {
+        margin-top: 40px;
+    }
 
     .map-right {
         width: 74%;
